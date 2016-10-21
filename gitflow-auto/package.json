@@ -3,33 +3,28 @@
   "version": "0.0.1",
   "description": "A module providing some automated git flow tools",
   "author": "Valentin Krasontovitscj <valkra@ihelse.net>",
-  "contributors": [{
-  "name": "Jone Vignes",
-  "email": "inful@ihelse.net"
-}],
-  "bin": {
-  "module-name": "./bin/gitflow-auto"
-},
-  "scripts": {
-    "predeploy": "echo im about to deploy",
-    "postdeploy": "echo ive deployed",
-  },
+  "contributors": [
+    {
+      "name": "Jone Vignes",
+      "email": "inful@ihelse.net"
+    }
+  ],
   "main": "release.js",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/valentin-krasontovitsch/dev-tools.git"
-},
+    "type": "git",
+    "url": "https://github.com/valentin-krasontovitsch/dev-tools.git"
+  },
   "bugs": {
-  "url": "https://github.com/valentin-krasontovitsch/dev-tools/issues"
-},
+    "url": "https://github.com/valentin-krasontovitsch/dev-tools/issues"
+  },
   "keywords": [
-  "git",
-  "gitflow",
-  "automation"
-],
+    "git",
+    "gitflow",
+    "automation"
+  ],
   "dependencies": {
+    "nodegit": "^0.16.0"
   },
-  "devDependencies": {
-  },
-  "license": "GNU"
+  "devDependencies": {},
+  "license": "GPL-3.0"
 }
