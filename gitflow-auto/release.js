@@ -2,6 +2,6 @@
 
 const process = require('process');
 
-
-process.env.release_version = 
+console.log(process.env.HOME);
+// process.env.release_version = 
 
