@@ -26,6 +26,8 @@
     "nodegit": "^0.16.0",
     "nodegit-flow": "^0.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  },
   "license": "GPL-3.0"
 }
